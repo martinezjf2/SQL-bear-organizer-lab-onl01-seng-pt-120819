@@ -30,6 +30,8 @@ def selects_bear_that_killed_Tim
   "SELECT * FROM bears WHERE (gender, temperament) = ('M', aggressive)"
 end
 
+
+# (id, name, age, gender, color, temperament, alive) 
 # (8,null, 20, "M", "black", "aggressive", 0);
 
     # -- ORDER OF OPERATIONS
