@@ -29,3 +29,17 @@ end
 def selects_bear_that_killed_Tim
   "SELECT color FROM bears"
 end
+
+
+
+    # -- ORDER OF OPERATIONS
+
+    # -- SELECT
+    # -- FROM
+    # --     JOIN
+    # --     ON
+    # -- WHERE
+    # -- GROUP BY
+    # -- HAVING
+    # -- ORDER BY
+    # -- LIMIT
