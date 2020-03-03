@@ -23,9 +23,25 @@ def selects_most_prominent_color_and_returns_with_count
 end
 
 def counts_number_of_bears_with_goofy_temperaments
-  "SELECT temperamentsFROM bears"
+  "SELECT COUNT(temperament) FROM bears WHERE temperament = 'goofy'"
 end
 
 def selects_bear_that_killed_Tim
-  "SELECT color FROM bears"
+  "SELECT * FROM bears WHERE temperament = 'aggressive'"
 end
+
+
+# (id, name, age, gender, color, temperament, alive) 
+# (8,null, 20, "M", "black", "aggressive", 0);
+
+    # -- ORDER OF OPERATIONS
+
+    # -- SELECT
+    # -- FROM
+    # --     JOIN
+    # --     ON
+    # -- WHERE
+    # -- GROUP BY
+    # -- HAVING
+    # -- ORDER BY
+    # -- LIMIT
